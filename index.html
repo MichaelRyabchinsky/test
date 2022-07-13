@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <script>
-        let name = prompt("Введите имя:");
+    <header class="header">
+        <div class="header-logo">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gym-logo-template-design-04d583c8ca3558ea0ea21763a57e7ba6_screen.jpg?ts=1604496976" alt="logo" width="120px" height="120px">
+        </div>
 
-        function ucFirst(item){
-            return item.charAt(0).toUpperCase() + item.slice(1)
-        }
-
-        alert(ucFirst(name))
-    </script>
+        <ul class="menu-list">
+            <li class="menu-list__item">Программа тренировок</li>
+            <li class="menu-list__item">Обо мне</li>
+            <li class="menu-list__item">Контакты</li>
+        </ul>
+        
+    </header>
+    <script src="script.js"></script>
 </body>
 </html>
